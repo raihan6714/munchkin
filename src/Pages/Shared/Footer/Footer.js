@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -21,24 +22,24 @@ const Footer = () => {
                   </p>
                   <ul className="sigma_social-links mt-40">
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="red-icon">
+                      <Link to="#" className="red-icon">
                         <i className="fab fa-twitter"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="white-icon">
+                      <Link to="#" className="white-icon">
                         <i className="fab fa-behance"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="blue-icon">
+                      <Link to="#" className="blue-icon">
                         <i className="fab fa-instagram"></i>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -50,31 +51,33 @@ const Footer = () => {
                     <h4 className="widget-title">Services.</h4>
                     <ul>
                       <li>
-                        <a href="service-details.html">Pet Spa & Nailbar</a>
+                        <Link to="/service-details.html">
+                          Pet Spa & Nailbar
+                        </Link>
                       </li>
                       <li>
-                        <a href="service-details.html">Pet Food</a>
+                        <Link to="/service-details.html">Pet Food</Link>
                       </li>
                       <li>
-                        <a href="service-details.html">Adoption</a>
+                        <Link to="/service-details.html">Adoption</Link>
                       </li>
                       <li>
-                        <a href="service-details.html">Pet Marrige</a>
+                        <Link to="/service-details.html">Pet Marrige</Link>
                       </li>
                       <li>
-                        <a href="services.html">Services</a>
+                        <Link to="/services.html">Services</Link>
                       </li>
                       <li>
-                        <a href="service-details.html">Pet Grooming</a>
+                        <Link to="/service-details.html">Pet Grooming</Link>
                       </li>
                       <li>
-                        <a href="service-details.html">Pet Packages</a>
+                        <Link to="/service-details.html">Pet Packages</Link>
                       </li>
                       <li>
-                        <a href="service-details.html">Pet Training</a>
+                        <Link to="/service-details.html">Pet Training</Link>
                       </li>
                       <li>
-                        <a href="service-details.html">Pet Medics</a>
+                        <Link to="/service-details.html">Pet Medics</Link>
                       </li>
                     </ul>
                   </div>
@@ -100,7 +103,7 @@ const Footer = () => {
                       </div>
                       <div className="desc">
                         <h6 className="title">Email Address</h6>
-                        <a href="#">info@webmail.com</a>
+                        <Link to="#">info@webmail.com</Link>
                       </div>
                     </div>
                     <div className="contact-box">
@@ -123,17 +126,17 @@ const Footer = () => {
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-5 order-2 order-md-1">
                 <p className="copyright-text copyright-two">
-                  Copyright By@<a href="#">Munchkin</a> - 2022
+                  Copyright By@<Link to="#">Munchkin</Link> - 2022
                 </p>
               </div>
               <div className="col-lg-6 col-md-7 order-1 order-md-2">
                 <div className="footer-menu text-center text-md-right">
                   <ul>
                     <li>
-                      <a href="#">Terms of use</a>
+                      <Link to="#">Terms of use</Link>
                     </li>
                     <li>
-                      <a href="#">Privacy Environmental Policy</a>
+                      <Link to="#">Privacy Environmental Policy</Link>
                     </li>
                   </ul>
                 </div>
