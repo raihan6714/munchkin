@@ -1,4 +1,9 @@
 import React from "react";
+import shape07 from "../../../img/shapes/shape-7.png";
+import shape08 from "../../../img/shapes/shape-8.png";
+import room01 from "../../../img/room/01.jpg";
+import room02 from "../../../img/room/02.jpg";
+import room03 from "../../../img/room/03.jpg";
 
 const Feature = () => {
   return (
@@ -27,7 +32,7 @@ const Feature = () => {
                 <div className="room-img-wrap">
                   <div
                     className="room-img"
-                    style={{ backgroundImage: "url(assets/img/room/01.jpg)" }}
+                    style={{ backgroundImage: `url(${room01})` }}
                   ></div>
                 </div>
                 <div className="room-desc">
@@ -73,7 +78,7 @@ const Feature = () => {
                 <div className="room-img-wrap">
                   <div
                     className="room-img"
-                    style={{ backgroundImage: "url(assets/img/room/02.jpg)" }}
+                    style={{ backgroundImage: `url(${room02})` }}
                   ></div>
                 </div>
                 <div className="room-desc">
@@ -119,7 +124,7 @@ const Feature = () => {
                 <div className="room-img-wrap">
                   <div
                     className="room-img"
-                    style={{ backgroundImage: "url(assets/img/room/03.jpg)" }}
+                    style={{ backgroundImage: `url(${room03})` }}
                   ></div>
                 </div>
                 <div className="room-desc">
@@ -165,7 +170,7 @@ const Feature = () => {
                 <div className="room-img-wrap">
                   <div
                     className="room-img"
-                    style={{ backgroundImage: "url(assets/img/room/02.jpg)" }}
+                    style={{ backgroundImage: `url(${room02})` }}
                   ></div>
                 </div>
                 <div className="room-desc">
@@ -209,10 +214,10 @@ const Feature = () => {
           </div>
         </div>
         <div className="shape-1 d-none d-sm-block">
-          <img src="assets/img/shapes/shape-7.png" alt="shapes" />
+          <img src={shape07} alt="shapes" />
         </div>
         <div className="shape-2 d-none d-sm-block">
-          <img src="assets/img/shapes/shape-8.png" alt="shapes" />
+          <img src={shape08} alt="shapes" />
         </div>
       </section>
     </div>

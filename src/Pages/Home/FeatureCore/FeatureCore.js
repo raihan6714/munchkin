@@ -1,4 +1,7 @@
 import React from "react";
+import feature01 from "../../../img/feature/01.jpg";
+import feature02 from "../../../img/feature/02.jpg";
+import feature03 from "../../../img/feature/03.jpg";
 
 const FeatureCore = () => {
   return (
@@ -34,7 +37,7 @@ const FeatureCore = () => {
                 <span className="count">01</span>
                 <div
                   className="hover-img"
-                  style={{ backgroundImage: "url(assets/img/feature/01.jpg)" }}
+                  style={{ backgroundImage: `url(${feature01})` }}
                 ></div>
               </div>
             </div>
@@ -71,7 +74,7 @@ const FeatureCore = () => {
                 <span className="count">03</span>
                 <div
                   className="hover-img"
-                  style={{ backgroundImage: "url(assets/img/feature/02.jpg)" }}
+                  style={{ backgroundImage: `url(${feature02})` }}
                 ></div>
               </div>
             </div>
@@ -108,7 +111,7 @@ const FeatureCore = () => {
                 <span className="count">05</span>
                 <div
                   className="hover-img"
-                  style={{ backgroundImage: "url(assets/img/feature/03.jpg)" }}
+                  style={{ backgroundImage: `url(${feature03})` }}
                 ></div>
               </div>
             </div>

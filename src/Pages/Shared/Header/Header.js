@@ -219,7 +219,7 @@ const Header = () => {
                 <a
                   className="main-btn btn-filled ml-2 d-none d-md-block"
                   href="contact.html"
-                  tabindex="0"
+                  tabIndex="0"
                 >
                   Book now{" "}
                 </a>

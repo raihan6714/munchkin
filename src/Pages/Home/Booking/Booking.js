@@ -12,7 +12,7 @@ const Booking = () => {
                   <div className="row align-items-end">
                     <div className="col-lg-3 col-md-6">
                       <div className="inputs-filed mt-30">
-                        <label for="arrival-date">Arrival Date</label>
+                        <label htmlFor="arrival-date">Arrival Date</label>
                         <div className="icon">
                           <i className="fal fa-calendar-alt"></i>
                         </div>
@@ -26,7 +26,7 @@ const Booking = () => {
                     </div>
                     <div className="col-lg-3 col-md-6">
                       <div className="inputs-filed mt-30">
-                        <label for="departure-date">Departure Date</label>
+                        <label htmlFor="departure-date">Departure Date</label>
                         <div className="icon">
                           <i className="fal fa-calendar-alt"></i>
                         </div>
@@ -40,7 +40,7 @@ const Booking = () => {
                     </div>
                     <div className="col-lg-3 col-md-6">
                       <div className="inputs-filed mt-30">
-                        <label for="guests">Pet Type</label>
+                        <label htmlFor="guests">Pet Type</label>
                         <select name="guests" id="guests">
                           <option value="" disabled selected>
                             Select From Here

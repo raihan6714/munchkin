@@ -1,5 +1,5 @@
 import React from "react";
-
+import textblock02 from "../../../img/text-block/02.png";
 const BookText = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const BookText = () => {
           >
             <div className="col-lg-7">
               <div className="text-img text-center text-lg-left mb-small">
-                <img src="assets/img/text-block/02.png" alt="Image" />
+                <img src={textblock02} alt="images" />
               </div>
             </div>
             <div
