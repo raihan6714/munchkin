@@ -1,5 +1,6 @@
 import React from "react";
-
+import banner01 from "../../../img/banner/01.jpg";
+import banner02 from "../../../img/banner/02.jpg";
 const Banner = () => {
   return (
     <>
@@ -44,10 +45,10 @@ const Banner = () => {
               <div className="banner-thumb d-none d-md-block">
                 <div className="hero-slider-one">
                   <div className="single-thumb">
-                    <img src="assets/img/banner/01.jpg" alt="images" />
+                    <img src={banner01} alt="images" />
                   </div>
                   <div className="single-thumb">
-                    <img src="assets/img/banner/02.jpg" alt="images" />
+                    <img src={banner02} alt="images" />
                   </div>
                 </div>
               </div>

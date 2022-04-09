@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../../img/logo.png";
 
 const Header = () => {
   return (
@@ -64,7 +65,7 @@ const Header = () => {
               {/* <!-- Site Logo --> */}
               <div className="site-logo">
                 <a href="index-2.html">
-                  <img src="assets/img/logo.png" alt="Logo" />
+                  <img src={logo} alt="Logo" />
                 </a>
               </div>
               {/* <!-- Main Menu --> */}
@@ -81,18 +82,7 @@ const Header = () => {
                 <div className="menu-items">
                   <ul>
                     <li>
-                      <a href="#">Home</a>
-                      <ul className="submenu">
-                        <li>
-                          <a href="index-2.html">Home One</a>
-                        </li>
-                        <li>
-                          <a href="index-3.html">Home Two</a>
-                        </li>
-                        <li>
-                          <a href="index-4.html">Home Three</a>
-                        </li>
-                      </ul>
+                      <a href="/home">Home</a>
                     </li>
                     <li>
                       <a href="about.html">About</a>

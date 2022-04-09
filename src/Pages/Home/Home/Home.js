@@ -3,6 +3,7 @@ import AboutPart from "../AboutPart/AboutPart";
 import Banner from "../Banner/Banner";
 import Booking from "../Booking/Booking";
 import BookText from "../BookText/BookText";
+import Feature from "../Feature/Feature";
 import FeatureCore from "../FeatureCore/FeatureCore";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <AboutPart />
       <BookText />
       <FeatureCore />
+      <Feature />
     </div>
   );
 };
