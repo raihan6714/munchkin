@@ -10,9 +10,9 @@ const Header = () => {
             <div className="d-md-flex align-items-center justify-content-between">
               <ul className="contact-list">
                 <li>
-                  <a href="mailto:info@website.com">
+                  <a href="abu.rahan14@gmail.com">
                     <i className="fal fa-envelope"></i>
-                    info@website.com
+                    abu.rahan14@gmail.com
                   </a>
                 </li>
                 <li>
