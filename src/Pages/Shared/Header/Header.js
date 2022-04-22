@@ -18,7 +18,7 @@ const Header = () => {
                 <li>
                   <a href="tel:+90898787709">
                     <i className="fal fa-phone"></i>
-                    +908 987 877 09
+                    +880 1834-526714
                   </a>
                 </li>
               </ul>
